@@ -1,11 +1,15 @@
 # idlerun
 Wait for run until cpu is idle
 
-# build
+# Build
+```
 > g++ idlerun.cpp -o idelrun
+```
 
-# run
+# Run
+```
 > idlerun [threshold] [program to run] [args]
+```
 
 - [threshold]: wait untill cpu load average is low than this value.
 - [program to run]: if cpu load average is low than threshold, this program will be launched.
