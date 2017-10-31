@@ -11,6 +11,6 @@ Wait for run until cpu is idle
 - [program to run]: if cpu load average is low than threshold, this program will be launched.
 - [args]: Args that is passed to the launching program.
 
-ex:
+```ex
 > ./idlerun `grep processor /proc/cpuinfo | wc -l` make_teacher some_params
-
+```
